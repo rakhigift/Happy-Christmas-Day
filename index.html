@@ -240,7 +240,10 @@ function shareWhatsApp(){
         msg = "🎄✨ Happy Christmas Day ✨🎄\nFrom " + name + " 🎅\n\n🎁 Click to view greeting 👇\n" + siteLink;
     }
 
-    window.open("https://wa.me/?text=" + encodeURIComponent(msg), "_blank");
+    window.open(
+  "https://wa.me/?text=" + encodeURIComponent(msg),
+  "_blank"
+);
 }
 
 function openGift(){
@@ -260,5 +263,6 @@ document.getElementById("totalUsers").innerText = count;
 
 </body>
 </html>
+
 
 
